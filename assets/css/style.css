@@ -5,10 +5,6 @@
   font-family: 'Raleway' sans-serif;
 }
 
-/*body{
-  height: 2500px;
-}*/
-
 a{
   text-decoration: none;
 }
@@ -185,6 +181,36 @@ nav.header-in{
     background-color: #fff;
 }
 
+/*typing*/
+.strong-women{
+  position: relative;
+  top: 80px;
+  height: 15em;
+  background-color: black;
+}
+
+.strong-women p{
+  position: absolute;
+  top: 30%;
+  overflow: hidden;
+  color: white;
+  font-size: 3em;
+  border-right: .1em solid orange;
+  margin: 0 auto;
+  white-space: nowrap;
+  letter-spacing: .15em;
+  animation: typing 10s steps(40, end) infinite;
+}
+
+@keyframes typing{
+  from{width: 0}
+  to{width: 100%}
+}
+
+.morado{color: #B273B8;}
+.celeste{color: #56B6C2;}
+.verde{color: #8AC363;}
+
 
 /*estilo de contenido*/
 h1{
@@ -193,8 +219,7 @@ h1{
   text-align: center;
   background-color: #BDBDBD;
   padding: 20px;
-  margin: 85px 0 10px 0;
-
+  margin-top: 85px;
 }
 
 h2{
